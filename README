@@ -1,0 +1,4 @@
+AutoComplete component for CakePHP 
+from http://cakeforge.org/snippet/detail.php?type=snippet&id=70
+
+Includes a patch from Mariano Guezuraga to make the component work with CakePHP 1.2.
