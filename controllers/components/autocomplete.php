@@ -1,6 +1,4 @@
 <?php
-/* - Not managed by main SVN - */
-
 /**
  * Automagically handles requests for autocomplete fields
  *
@@ -100,11 +98,11 @@ class AutocompleteComponent extends Object {
 				}
 			}
 			$elements = array_unique($elements);
-			e("<ul>\n");
+			echo "<ul>\n";
 			foreach($elements as $element){
-				e("\t<li>".$element."</li>\n");
+				echo "\t<li>".$element."</li>\n";
 			}
-			e("</ul>\n");
+			echo "</ul>\n";
 		}
 
 		exit();
